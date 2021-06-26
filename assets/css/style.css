@@ -19,6 +19,9 @@ body{
     .navbar-nav .nav-link{
         background-color: transparent;
     }
+    .curriculo{
+        bottom: 30px;
+    }
 }
 .nav-link span:hover{
     color: rgb(223, 149, 12);
@@ -163,6 +166,7 @@ nav{
     background-color: white;
     text-align: center;
     width: 90%;
+    
 }
 .fundo{
     background-color:rgba(14, 13, 13,0.8);
@@ -179,4 +183,10 @@ nav{
 }
 .informacoes{
     text-align: start;
+}
+footer{
+    background-color: black;
+    min-height: 200px;
+    text-align: center;
+    color: white;
 }
