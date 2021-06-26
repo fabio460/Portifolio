@@ -9,6 +9,17 @@ body{
 .navbar-brand{
     width: 900px;
 }
+@media (max-width:1000px) {
+    .navbar-brand{
+        width: 100px;
+    }
+    .navbar-nav .repos{
+        display: none;
+    }
+    .navbar-nav .nav-link{
+        background-color: transparent;
+    }
+}
 .nav-link span:hover{
     color: rgb(223, 149, 12);
     border-bottom: rgb(223, 149, 12) 3px solid;
