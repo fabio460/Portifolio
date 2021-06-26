@@ -19,12 +19,15 @@ body{
     .navbar-nav .nav-link{
         background-color: transparent;
     }
-    .curriculo{
-        bottom: 30px;
-    }
+    
     .col-sm-6 h1 {
         margin-top: 10px;
 
+    }
+    .fundo .curriculo{
+        width: 90vw;
+        height: 78vh;
+        margin: auto;
     }
 }
 .nav-link span:hover{
@@ -164,13 +167,13 @@ nav{
     
 }
 .curriculo{
-    font-size: 15px;
-    margin: auto;
-    padding: 50px;
-    background-color: white;
-    text-align: center;
-    width: 90%;
     
+    background-image: url('../imagens/curriculo.png');
+    background-position: top;
+    background-size: cover;
+    width: 500px;
+    height: 82vh;
+    margin: auto;
 }
 .fundo{
     background-color:rgba(14, 13, 13,0.8);
@@ -183,6 +186,7 @@ nav{
     height: 100vh;
     display: none;
     transition: 1s;
+    
     
 }
 .informacoes{
