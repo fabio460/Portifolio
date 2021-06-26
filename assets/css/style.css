@@ -193,6 +193,7 @@ footer{
     min-height: 200px;
     text-align: center;
     color: white;
+    padding-top: 80px;
 }
 .perfil{
     background-image: url('../imagens/banner.jpg');
