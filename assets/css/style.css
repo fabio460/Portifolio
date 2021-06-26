@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+  margin: 0px;   
+}
+.navbar{
+    background-color: #5c5c5c;
+    transition: 1s;
+}
+.navbar-brand{
+    width: 900px;
+}
+.nav-link span:hover{
+    color: rgb(223, 149, 12);
+    border-bottom: rgb(223, 149, 12) 3px solid;
+    
+}
+.row .btn{
+    background-color: rgb(223, 149, 12) ;
+    color: white;
+    border: rgb(223, 149, 12) solid 3px;
+    padding: 5px 20px;
+}
+.row .btn:hover{
+    background-color: transparent;
+    border: rgb(223, 149, 12) solid 3px;
+    box-sizing: border-box;
+}
+.margem{
+   height: 60px;
+}
+section:nth-child(even){
+    background-color: #191919;
+    min-height: 400px;
+}
+section{
+    background-color: #5c5c5c;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.col-sm-6 h1{
+   margin-top:200px;
+   
+}
+.col-sm-6 h2{
+    margin-top:200px;
+    
+ }
+.row .col-sm-12{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-sm-4 .img-fluid{
+   margin-bottom: 30px;
+   box-shadow: black 1px 2px 5px;
+}
+.linha{
+    width: 150px;
+    height: 4px;
+    background-color: rgb(223, 149, 12);
+}
+.campo{
+    max-width: 550px;
+    height: 300px;
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descricao{
+    margin-bottom: 50px;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+#esquerda,#direita{
+    opacity: 0;
+    transition: 2s;
+    padding-left: 10px;
+}
+.texto{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+#esquerda_m{
+    opacity: 0;
+    margin: -15px;
+    transition: 1s;
+}
+#direita_m{
+    opacity: 0;
+    
+    transition: 1s;
+}
+.separacao{
+    height: 620px;
+    background-color: #191919;
+    transition: 1s;
+}
+ul li{
+    list-style: none;
+    margin: 5px 10px;
+    border-bottom: transparent solid 2px;
+    cursor: pointer;
+}
+ul li:hover{
+    color: rgb(223, 149, 12);
+    border-bottom: transparent solid 2px;
+}
+.ativo{
+    color: rgb(223, 149, 12);
+    border-bottom: rgb(223, 149, 12) solid 2px;
+    transition: 1s;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    width: 100%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.sumir{
+    transition: 1s;
+    width: 0%;
+    height: 0%;
+}
+.navbar-nav img{
+    width: 90px;
+    height: 30px;
+    
+}
+.curriculo{
+    font-size: 15px;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+    width: 90%;
+}
+.fundo{
+    background-color:rgba(14, 13, 13,0.8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    transition: 1s;
+    
+}
+.informacoes{
+    text-align: start;
+}
