@@ -168,7 +168,7 @@ nav{
 }
 .curriculo{
     
-    background-image: url('../imagens/curriculo.png');
+    background-image: url('../imagens/fundo/curriculo.png');
     background-position: top;
     background-size: cover;
     width: 500px;
