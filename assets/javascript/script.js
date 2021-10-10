@@ -90,7 +90,7 @@ function servico(){
 }
 function projetos(){
     window.scrollTo({
-        top:1700,
+        top:2400,
         behavior:'smooth',
         left:0
     })
