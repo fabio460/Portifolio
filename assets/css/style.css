@@ -25,8 +25,8 @@ body{
 
     }
     .fundo .curriculo{
-        width: 90vw;
-        height: 78vh;
+        width: 100%;
+        height: 100%;
         margin: auto;
     }
 }
@@ -173,8 +173,8 @@ nav{
     background-image: url('../imagens/fundo/curriculo.png');
     background-position: top;
     background-size: cover;
-    width: 500px;
-    height: 82vh;
+    width: 410px;
+    height: 85vh;
     margin: auto;
 }
 .fundo{
